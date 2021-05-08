@@ -16,9 +16,9 @@ function setup() {
     //Create the Bodies Here.
     paper1 = new Paper(100,600, 10);
     ground = new Ground(400,680,800,20);
-    dustbin1 = new Dustbin(610,660, 100, 20);
-    dustbin2 = new Dustbin(550,620,20,100);
-    dustbin3 = new Dustbin(670,620,20,100)
+    dustbin1 = new Dustbin(660,660, 100, 20);
+    dustbin2 = new Dustbin(600,620,20,100);
+    dustbin3 = new Dustbin(720,620,20,100)
     
 
     Engine.run(engine);
